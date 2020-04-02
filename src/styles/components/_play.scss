@@ -1,0 +1,89 @@
+.questions {
+
+    background-color: $off-white;
+    border-left: 5px solid $blue;
+    width : 80%;
+    margin: $lg auto auto;
+    padding: $sm $md;
+    .lifeline-container{
+        display: flex;
+        justify-content: space-between;
+
+        .lifeline-icon {
+            color: greenyellow;
+            cursor: pointer;
+        }
+        .lifeline-icon:hover{
+            color: desaturate($color: yellow, $amount: 10);
+        }
+
+        .lifeline {
+            top: -3px;
+            position: relative;
+        }
+    }
+
+    h5{
+        text-align:center;
+        line-height:1.5rem;
+        margin-bottom:$lg;
+
+    }
+
+    .question{
+        display:inline-block;
+        width:50%;
+    }
+    
+    .options{
+        background-color: $blue;
+        border-radius: 18px;
+        color: white;
+        cursor: pointer;
+        margin : $md auto;
+        padding: $normal;
+        transition: 0.3s linear all;
+        text-align: center;
+        width: 90%;
+    }
+
+    .options:hover{
+        background-color: darken($color: $blue, $amount: 10%);
+    }   
+}
+
+.pagebutton{
+    display: flex;
+    justify-content: flex-start;
+    padding: $normal;
+    width: 80%;
+    button{
+        cursor: pointer;
+        padding: $xs $sm;
+        margin-right:$md;
+        transition: 0.3s linear all;
+      
+     
+    }
+    
+button:first-child{
+background-color: lightgray;
+    }
+button:last-child{
+background-color: lightgray;
+}
+button:nth-child(2){
+background-color: lightgray;
+}
+button:nth-child(2):hover{
+background-color: darken($color: lightgray, $amount: 30%);
+}
+button:last-child:hover{
+background-color: darken($color: rgb(165, 175, 165), $amount: 10%)
+}
+  button:first-child:hover{
+ background-color: darken($color: lightgray, $amount: 30%);
+}
+
+
+}

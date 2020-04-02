@@ -1,0 +1,44 @@
+.head{
+    background-color:white;
+    
+  h1{
+      color: green;
+      text-align: center;
+  }
+
+    .stats{
+        background-color: $off-white;
+        max-width: 50%;
+        padding: $sm $md $md $md;
+    }
+    .stats h4, .stats h2 {
+        text-align: center;
+    }
+
+    .stats .stat {
+        color: black;
+        font-size: $normal;
+    }
+    button{
+        cursor: pointer;
+        padding: $xs $sm;
+        margin-right:$md;
+        transition: 0.3s linear all;
+      
+     
+    }
+    
+.first-child{
+background-color: green;
+
+    }
+.last-child{
+background-color: red;
+}
+.last-child:hover{
+background-color: darken($color: rgb(165, 175, 165), $amount: 10%)
+}
+.first-child:hover{
+ background-color: darken($color: lightgray, $amount: 30%);
+}
+}

@@ -1,0 +1,16 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+
+.toast-valid{
+    background-color: green !important;
+    border-radius: 15px !important;
+    color: $off-white !important;
+}
+
+.toast-invalid{
+    background-color: red !important;
+    border-radius: 15px !important;
+
+}
