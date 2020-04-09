@@ -18,24 +18,24 @@ class instruc extends Component {
                     <p>Ensure you read the guide before playing the Game</p>
                     <ul>
                         <li>
-                            i want to learn how to add an image before we move on
+                            Answer the correct question by clicking on the Answer
                            
                         </li>
                         <li>
                     
-                            <img src={sample} alt="what da fuck"/>
+                            <img src={sample} alt="picture is suppose to be here"/>
                         </li>
                         
                         <li>
-                            i want to learn how to add an image before we move on
+                            You can use the Hint options to eliminate wrong Answers
                             <span className="mdi mdi-set-center mdi-24px lifeline-icon"></span>
-                            things will change 
+                            5 hints available
                            
                         </li>
                         <li>
-                            i want to learn how to add an image before we move on
+                            Click submit when you are done, you have about 3 SECONDS to answer the question
                             <span className="mdi mdi-lightbulb mdi-24px lifeline-icon"></span>
-                            things will change 
+                            Display image
                            
                         </li>
                         

@@ -1,7 +1,7 @@
 import React, { Component,Fragment } from 'react';
 import { Helmet } from "react-helmet"
 import {Link, withRouter}  from "react-router-dom"
-import play from "./play"
+
 class summary extends Component {
     constructor(props) {
         super(props);
@@ -33,19 +33,7 @@ class summary extends Component {
   }
   
   
-//   buttonhandler = (e)=>{
-//     switch(e.target.id){
 
-//         case "Replay":
-//            this.buttonhandlerr()
-//            break;
-//         case "quit":
-//         this.buttonhandlerq()
-//         break;
-//          default:
-//             break
-//     }
-//  }
  buttonhandlerr=()=>{
     this.props.history.push('/play/quiz');
  }

@@ -193,7 +193,6 @@ class play extends Component {
         
        if (this.state.hint > 0){
         const Options = Array.from(document.querySelectorAll(".options"))
-        console.log(Options)
         let indexOfAnswer;
         Options.forEach((options,index)=>{
             if(options.innerHTML.trim() === this.state.answer.trim()){
