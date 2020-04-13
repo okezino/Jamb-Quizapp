@@ -1,8 +1,8 @@
 .questions {
 
-    background-color: $off-white;
-    border-left: 5px solid $blue;
-    width : 80%;
+    background-color: white;
+    border-left: 5px solid green;
+    width : 100%;
     margin: $lg auto auto;
     padding: $sm $md;
     .lifeline-container{
@@ -10,7 +10,7 @@
         justify-content: space-between;
 
         .lifeline-icon {
-            color: greenyellow;
+            color: green;
             cursor: pointer;
         }
         .lifeline-icon:hover{
@@ -31,12 +31,17 @@
     }
 
     .question{
-        display:inline-block;
-        width:50%;
+         display: inline-block;
+         width:50%;
     }
+    @media only screen and (max-width: 600px) {
+        .question {
+          width: 100%;
+        }
+      }
     
     .options{
-        background-color: $blue;
+        background-color: green;
         border-radius: 18px;
         color: white;
         cursor: pointer;
@@ -50,40 +55,41 @@
     .options:hover{
         background-color: darken($color: $blue, $amount: 10%);
     }   
-}
-
-.pagebutton{
-    display: flex;
-    justify-content: flex-start;
-    padding: $normal;
-    width: 80%;
-    button{
-        cursor: pointer;
-        padding: $xs $sm;
-        margin-right:$md;
-        transition: 0.3s linear all;
-      
-     
+    .pagebutton{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin : $md auto;
+        text-align: center;
+        button {
+            cursor: pointer;
+            padding: $xs $sm;
+            margin-right:$xlg auto auto;
+            transition: 0.3s linear all;
+          
+         
+        }
+        
+    button:first-child{
+    background-color: lightgray;
+        }
+    button:last-child{
+    background-color: lightgray;
+    }
+    button:nth-child(2){
+    background-color: lightgray;
+    }
+    button:nth-child(2):hover{
+    background-color: darken($color: lightgray, $amount: 30%);
+    }
+    button:last-child:hover{
+    background-color: darken($color: rgb(165, 175, 165), $amount: 10%)
+    }
+      button:first-child:hover{
+     background-color: darken($color: lightgray, $amount: 30%);
     }
     
-button:first-child{
-background-color: lightgray;
+    
     }
-button:last-child{
-background-color: lightgray;
-}
-button:nth-child(2){
-background-color: lightgray;
-}
-button:nth-child(2):hover{
-background-color: darken($color: lightgray, $amount: 30%);
-}
-button:last-child:hover{
-background-color: darken($color: rgb(165, 175, 165), $amount: 10%)
-}
-  button:first-child:hover{
- background-color: darken($color: lightgray, $amount: 30%);
 }
 
-
-}

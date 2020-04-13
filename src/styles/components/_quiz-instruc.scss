@@ -2,22 +2,21 @@
     
     border: 5px solid darken($color: $off-white, $amount: 10% );
     border-radius:5px;
-    margin-top: $lg;
-    margin-bottom: $lg;
+    margin: $xlg auto auto;
     padding: $lg  $lg;
+    text-align: justify;
+    color : $off-black;
+    
 
-    h1{
-        color : $off-black;
-        text-align: center;
-
-    }
-    .lifeline-icon {
-        color : greenyellow;
-        cursor: pointer;
-        top:-3px;
-        position: relative;
-      
-    }
-
+ 
+ 
+    @media only screen and (max-width: 600px) {
+         .h1{
+            color : $off-black;
+            text-align: center;
+            font-size: xx-large;
+          
+        }
+      }
   
 }

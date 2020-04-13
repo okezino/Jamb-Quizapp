@@ -14,36 +14,35 @@ class instruc extends Component {
               <Helmet><title>Game instuctions</title></Helmet>
                 <div className="instruction container">
 
-                    <h1>How to Play the Game </h1>
-                    <p>Ensure you read the guide before playing the Game</p>
-                    <ul>
+                    <p className="h1">How to Play the Game </p>
+                    <h6>Ensure you read the guide before playing the Game</h6>
+                    <ol>
                         <li>
-                            Answer the correct question by clicking on the Answer
+                            <p> Answer the correct question by clicking on the Answer </p>
                            
                         </li>
                         <li>
-                    
-                            <img src={sample} alt="picture is suppose to be here"/>
+                           <p> You have 5 hints to eliminate wrong Answers, the hint can be use more than once per question
+                            <span style={{color:"green"}} className="mdi mdi-lightbulb-on-outline mdi-24px lifeline-icon"></span></p>
+                            
+                           
+                        </li>
+                        <li>
+                          <p> After 3 minute the sytem automatically sumbit your answer and display your result imediately 
+                            <span style={{color:"green"}} className="mdi mdi-lightbulb mdi-24px lifeline-icon"></span></p>
+                           
+                        </li>
+                        <li>
+                          <p> Click on the <span style={{fontWeight:"bold",fontStyle:"italic"}} >START GAME </span> link below  to take the quiz
+                            </p>
+                           
                         </li>
                         
-                        <li>
-                            You can use the Hint options to eliminate wrong Answers
-                            <span className="mdi mdi-set-center mdi-24px lifeline-icon"></span>
-                            5 hints available
-                           
-                        </li>
-                        <li>
-                            Click submit when you are done, you have about 3 SECONDS to answer the question
-                            <span className="mdi mdi-lightbulb mdi-24px lifeline-icon"></span>
-                            Display image
-                           
-                        </li>
-                        
-                    </ul>
+                    </ol>
 
                     <div>
-                        <span className="left"> <Link to ="/"> BACK </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> START GAME </Link></span>
+                        <span className="left"> <Link to ="/" style={{color:"green"}}> BACK </Link></span>
+                        <span className="right"> <Link to="/play/quiz" style={{color:"green"}}> START GAME </Link></span>
                     </div>
 
                 </div>

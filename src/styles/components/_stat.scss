@@ -1,44 +1,39 @@
 .head{
     background-color:white;
-    
+    margin:$sm auto auto;
+    border: 2px solid green;
+
+    table,th,td{
+        border: 1px solid black;
+      }
+      tr:nth-child(even) {
+        background-color: $off-white}
   h1{
       color: green;
-      text-align: center;
+      text-align:center;
   }
 
     .stats{
-        background-color: $off-white;
-        max-width: 50%;
-        padding: $sm $md $md $md;
-    }
-    .stats h4, .stats h2 {
-        text-align: center;
-    }
-
-    .stats .stat {
+        max-width: 100%;
+        padding:$sm $md;
         color: black;
         font-size: $normal;
-    }
-    button{
-        cursor: pointer;
-        padding: $xs $sm;
-        margin-right:$md;
-        transition: 0.3s linear all;
-      
-     
+
+        h4, h2 {
+            text-align: center;
+        }
     }
     
-.first-child{
-background-color: green;
+    .pagebutton{
+        display: flex;
+        justify-content: space-between;
+        margin: $sm auto auto;
+        width:100%;
+        button{
+            cursor: pointer;
+            padding: $xs $sm;
+            transition: 0.3s linear all }
 
-    }
-.last-child{
-background-color: red;
-}
-.last-child:hover{
-background-color: darken($color: rgb(165, 175, 165), $amount: 10%)
-}
-.first-child:hover{
- background-color: darken($color: lightgray, $amount: 30%);
-}
+        }
+   
 }

@@ -27,7 +27,7 @@ class summary extends Component {
         numberOfquest : state.numberOfquest,
         numberOfAnsweredquest: 15 - state.numberOfunansweredquest,
         hint : state.hintused,
-        fiftyfity : state.fiftyfityused,
+        fiftyfity : (state.numberOfquest - (state.correctAnswer + state.wrongAnswer))
         
     })
   }
@@ -50,46 +50,55 @@ class summary extends Component {
            } else if (this.state.score <=70){
                 remark ="You are Good"
            }else{
-               remark ="You need an Award"
+               remark ="Excellent"
            }       
         return ( <Fragment>
             <Helmet><title>player statistics</title></Helmet>
              <div className="head">
-             <Fragment>
+             
                 
-                <h1>Quiz has Ended!!!</h1>
+                <h1>Quiz Completed</h1>
 
-            <div className="container stats">
+            <div className="stats">
 
                 <h4>{remark}</h4>
                 <h2> Score obtain in quiz : {this.state.score.toFixed(0)}%  </h2>
-            
-                <span className=" stat left"> Total of answered question :</span>
-                <span className="right">{this.state.numberOfAnsweredquest} :</span> < br />
-
-                <span className="stat left"> Total number of question :</span>
-                <span className="right">{this.state.numberOfquest} :</span> < br />
-
-                <span className="stat left"> Total number of correctAnswer:</span>
-                <span className="right">{this.state.correctAnswer} :</span> < br />
-
-                <span className="stat left"> Total number of wrongAnswer :</span>
-                <span className="right">{this.state.wrongAnswer} :</span> < br />
-
-                <span className="stat left"> Total number of hint left :</span>
-                <span className="right">{this.state.hint} :</span> < br />
-
-                <span className="stat left"> Total number of fiftyfity left :</span>
-                <span className="right">{this.state.fiftyfity} :</span> < br />
-
+                 <table>
+                 <tr>
+                <th> SUMMARY</th>
+                <th> SCORE</th>
+                </tr>
+                <tr>
+                <td> Number of question</td>
+                <td> {this.state.numberOfquest}</td>
+                </tr>
+                     <tr>
+                <td> Answered question</td>
+                <td> {this.state.numberOfAnsweredquest}</td>
+                </tr>
+                <tr>
+                <td> Unanswered question</td>
+                <td> {this.state.fiftyfity}</td>
+                </tr>
+                <tr>
+                <td> Number of correctAnswer</td>
+                <td> {this.state.correctAnswer}</td>
+                </tr>
+                <tr>
+                <td> Number of wrongAnswer</td>
+                <td> {this.state.wrongAnswer}</td>
+                </tr>
+                <tr>
+                <td> Number of hint unused </td>
+                <td> {this.state.hint}</td>
+                </tr>
+               
+                </table>
                 <div className="pagebutton">
-             <button className="first-child" id="Replay" onClick={this.buttonhandlerr}>Replay</button>
-             <button id="quit"  onClick={this.buttonhandlerq}>Quit</button>
+             <button   onClick={this.buttonhandlerr}>Replay</button>
+             <button   onClick={this.buttonhandlerq}>Quit</button>
          </div>
             </div>
-         
-
-      </Fragment>
               </div>
               </Fragment>
 

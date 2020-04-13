@@ -70,9 +70,9 @@ class play extends Component {
     }
     buttonhandlerp = () =>{
        if(this.state.prevquest !== undefined){
-       this.setState(prevState=>({
-           currentquestindex : prevState.currentquestindex -1,
-           numberOfAnsweredquest : prevState.numberOfAnsweredquest -1,   
+       this.setState(state=>({
+           currentquestindex : state.currentquestindex -1,
+           numberOfAnsweredquest : state.numberOfAnsweredquest -1,   
     }),() =>{
         let {quest} = this.state;
      this.setquest(quest)
@@ -88,9 +88,9 @@ class play extends Component {
      }
      buttonhandlern = () =>{
         if(this.state.nextquest !== undefined){
-                  this.setState(prevState=>({
-                          currentquestindex : prevState.currentquestindex + 1,
-                          numberOfunansweredquest : prevState.numberOfunansweredquest +1,   
+                  this.setState(state=>({
+                          currentquestindex : state.currentquestindex + 1,
+                          numberOfunansweredquest : state.numberOfunansweredquest +1,   
                  }),() =>{
                               let {quest} = this.state;
                               this.setquest(quest)
@@ -130,8 +130,8 @@ class play extends Component {
     }
     correctAns=()=> { 
          M.toast({
-             html: " WoW..You re Correct",
-             displayLength: 2000,
+             html: "RIGHT",
+             displayLength: 1000,
              classes:"toast-valid"
              
          })
@@ -159,8 +159,8 @@ class play extends Component {
         }
         wrongAns=()=> { 
             M.toast({
-                html: " lol you re wrong",
-                displayLength: 2000,
+                html: "WRONG",
+                displayLength: 1000,
                 classes:"toast-invalid"
                 
             })
@@ -172,10 +172,7 @@ class play extends Component {
                numberOfAnsweredquest : prevState.numberOfAnsweredquest +1,
                    
                }),()=>{
-                   this.setquest(quest);
-                 
-                   console.log("fword")
-                
+                   this.setquest(quest);          
                })
            }else {
             this.setState(prevState=>({
@@ -284,20 +281,19 @@ class play extends Component {
                  <div className="lifeline-container">
                      <p>
                          <span onClick={this.handlerHint} className=" mdi mdi-lightbulb-on-outline mdi-24px lifeline-icon"></span>
-        <span className="lifeline" >{hint}</span>
+                         <span className="lifeline" >{hint}</span>
+                                       
                      </p>
-
+                    <p > <span >{this.state.currentquestindex +1} of {this.state.numberOfquest}</span></p>
+                    <p><span>{time.min}:{time.sec} <span className="mdi mdi-clock-outline mdi-24px lifeline-icon" > </span></span></p>
                  </div>
-                 <div className="Timers">
-                     <p>
-        <span className="left">{this.state.currentquestindex +1} of {this.state.numberOfquest}</span>
-                         <span className="right">{time.min}:{time.sec} <span className="mdi mdi-clock-outline mdi-24px lifeline-icon" > </span></span>
-                         
-                     </p>
-                 </div>
-                 <h5>{currentquest.question}</h5>
+               
+          
+                
+                   <div>
+                 <h5>{currentquest.question}</h5></div>
                  <div className="question">
-                 <p onClick ={this.handleOption } className= "options"> {currentquest.optionA}</p>
+                     <p onClick ={this.handleOption } className= "options"> {currentquest.optionA}</p>
                      <p onClick ={this.handleOption} className= "options"> {currentquest.optionB}</p>
                  </div>
                  <div className="question">
@@ -305,9 +301,10 @@ class play extends Component {
                      <p onClick ={this.handleOption } className= "options"> {currentquest.optionD}</p>
                  </div>
                  <div className="pagebutton">
-                     <button id= "prev"onClick={this.buttonhandler}>PREV</button>
-                     <button id="next"onClick={this.buttonhandler}>NEXT</button>
+                     {/* <button id= "prev"onClick={this.buttonhandler}>PREV</button> */}
                      <button id="quit" onClick={this.buttonhandler}>QUIT</button>
+                     <button id="next"onClick={this.buttonhandler}>NEXT</button>
+                     
                  </div>
             
             </div>

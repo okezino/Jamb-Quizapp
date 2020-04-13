@@ -1,12 +1,14 @@
 .login-form {
     width:100%;
-    max-width: 500px;
     height: 100%;
-    margin: auto;
+    max-width:500px;
+    margin:$sm auto auto;
     padding: 30px;
-    background-color:lightgrey;
-    border: 2px solid grey;
+    background-color:white;
+    border: 2px solid green;
 }
+
+
 .start{
     margin-top: 10px;
 .start_try {
