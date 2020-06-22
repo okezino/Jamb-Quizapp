@@ -46,8 +46,8 @@ class instruc extends Component {
                         <span className="right"> <Link to="/play/phy"> + </Link></span>
                         </div>
                         <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/quiz"> CHEMISTRY </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        <span > <Link to="/play/che"> CHEMISTRY </Link></span>
+                        <span className="right"> <Link to="/play/che"> + </Link></span>
                         </div>
                         
                         <div className="col-sm-3 sub p-3">

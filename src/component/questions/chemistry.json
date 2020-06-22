@@ -1,0 +1,136 @@
+[
+    {
+        "question": "The spreading of the scent of a flower in a garden is an example of ________",
+        "optionA": "Brownian motion",
+        "optionB": "Diffusion",
+        "optionC": "Tynadal effect",
+        "optionD": "Osmosis",
+        "answer": "Diffusion"
+    },
+
+    {
+        "question": "Propane and carbon (IV) oxide diffuse at the same rate because [H = 1.00, C = 12.0, O = 16.0]",
+        "optionA": "They are both gases",
+        "optionB": "Their molecules contain carbon",
+        "optionC": "They have the same relative molecular mass",
+        "optionD": "Both are denser than air",
+        "answer": "They have the same relative molecular mass"
+    },
+
+    {
+        "question": "The pH of four solutions M, N, Q and R are 2, 6, 8 and 11 respectively. Which of the following deductions about the solutions is correct?",
+        "optionA": " The pH of N is increased when the solution is diluted",
+        "optionB": "The pH of Q is increased when the solution is evaporated",
+        "optionC": "M is the most alkaline solution",
+        "optionD": "R is the most acidic solution ",
+        "answer": "The pH of N is increased when the solution is diluted"
+    },
+
+    {
+        "question": "The energy which accompanies the addition of an electron to an isolated gaseous atom is",
+        "optionA": "Atomization",
+        "optionB": "Electronegativity",
+        "optionC": "Electron affinity",
+        "optionD": "Ionization",
+        "answer": "Electron affinity"
+    },
+
+    {
+        "question": "The refreshing characteristic taste of fizzy drinks is due to the presence of",
+        "optionA": "Carbon (IV) oxide",
+        "optionB": "Glucose",
+        "optionC": "Hydrogen",
+        "optionD": "Sodium Citrate",
+        "answer": "Carbon (IV) oxide"
+    },
+
+    {
+        "question": "Ripening of fruits is hastened by using",
+        "optionA": "Ethanol",
+        "optionB": "Ethane",
+        "optionC": "Ethene",
+        "optionD": "Ethyne",
+        "answer": "Ethene"
+    },
+
+    {
+        "question": "Which of the following sources of energy contributes to green-house effect?",
+        "optionA": "Natural gas",
+        "optionB": "Nuclear",
+        "optionC": "Wind",
+        "optionD": "Solar",
+        "answer": "Natural gas"
+    },
+
+    {
+        "question": "When a compound X is heated with concentrated tetraoxosulphate (VI) acid, it produces an alkene. X is an",
+        "optionA": "Alkane",
+        "optionB": "Alkanoate",
+        "optionC": "Alkyne",
+        "optionD": "Alkanol",
+        "answer": "Alkanol"
+    },
+
+    {
+        "question": "Amino acids are obtained from proteins by",
+        "optionA": "Hydrolysis",
+        "optionB": "Reduction",
+        "optionC": "Polymerization",
+        "optionD": "Oxidation",
+        "answer": "Hydrolysis"
+    },
+
+    {
+        "question": "The quantity of electricity required to discharge 1 mole of univalent ion is",
+        "optionA": "9600 C",
+        "optionB": "48250 C",
+        "optionC": "96500 C",
+        "optionD": "193000 C",
+        "answer": "96500 C"
+    },
+
+    {
+        "question": "Which of the following bonds are broken when ethanol is boiled? I. Covalent bonds II. Ionic bonds III. Hydrogen bonds",
+        "optionA": "I only",
+        "optionB": "II only",
+        "optionC": "III only",
+        "optionD": "I, II, III",
+        "answer": "III only"
+    },
+
+    {
+        "question": "Chemical equilibrium is attained when",
+        "optionA": "All the reactants have been completely used up",
+        "optionB": "The reaction goes to completion",
+        "optionC": "The concentration of reactants and products remain constant",
+        "optionD": "The concentration of reactants and products are equal",
+        "answer": "The concentration of reactants and products remain constant"
+    },
+
+    {
+        "question": "The minimum amount of energy required for effective collisions between reacting particles is known as",
+        "optionA": "Lagos A) Activation energy",
+        "optionB": "Bond energy",
+        "optionC": "Kinetic energy",
+        "optionD": "Potential energy",
+        "answer": "Activation energy"
+    },
+
+    {
+        "question": "Which of the following statements about solids is correct?",
+        "optionA": "A) Solid particles are less orderly than those of a liquid",
+        "optionB": "Solid have lower densities than liquids",
+        "optionC": "Solid particles have greater kinetic energies than those of liquids",
+        "optionD": "Solid particles cannot be easily compressed",
+        "answer": "Solid particles cannot be easily compressed"
+    },
+
+    {
+        "question": "Which of the following apparatus can be used to measure a specific volume of a liquid accurately?",
+        "optionA": "Beaker",
+        "optionB": "Conical flask",
+        "optionC": "Pipette",
+        "optionD": "Measuring cyclinder",
+        "answer": "Pipette"
+    }
+]

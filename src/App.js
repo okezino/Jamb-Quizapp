@@ -18,6 +18,7 @@ function App() {
       <Route path ="/play/quiz" exact component={play}/>
       <Route path ="/play/bio" exact component={Biology}/>
       <Route path ="/play/phy" exact component={Physics}/>
+      <Route path ="/play/che" exact component={Chemistry}/>
       <Route path ="/play/stat" component={summary}/>
       <Route path ="/play/chem" component={Chemistry}/>
       </div>
