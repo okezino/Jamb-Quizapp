@@ -1,7 +1,8 @@
-import React, { Component, Fragment} from 'react';
+import React, { Component} from 'react';
 import {Link} from "react-router-dom"
-import {Button,Form,FormGroup,Label,Input} from "reactstrap"
+import {Form,FormGroup,Label} from "reactstrap"
 import {FacebookLoginButton} from "react-social-login-buttons"
+
 
 class Home extends Component {
     constructor(props) {
@@ -9,7 +10,8 @@ class Home extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <Form className="login-form">
+        return ( <div>
+        <Form className="login-form">
             <h1 style={{textAlign:"center"}}>
                 <span className ="font-weight-bold" style={{color:"green"}}>9jabrains</span>.com
                 </h1>
@@ -38,7 +40,7 @@ class Home extends Component {
 
 
         </Form>
-            
+        </div>
          );
     }
 }

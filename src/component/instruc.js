@@ -1,7 +1,7 @@
 import React, { Component,Fragment } from 'react';
 import {Link} from "react-router-dom"
 import {Helmet} from "react-helmet"
-import {sample} from "../assets/img/sample.jpeg"
+
 
 class instruc extends Component {
     constructor(props) {
@@ -33,18 +33,62 @@ class instruc extends Component {
                            
                         </li>
                         <li>
-                          <p> Click on the <span style={{fontWeight:"bold",fontStyle:"italic"}} >START GAME </span> link below  to take the quiz
+                          <p> Click on the <span style={{fontWeight:"bold",fontStyle:"italic"}} >the subject </span> link below  to take the  quiz
                             </p>
                            
                         </li>
                         
                     </ol>
 
-                    <div>
-                        <span className="left"> <Link to ="/" style={{color:"green"}}> BACK </Link></span>
-                        <span className="right"> <Link to="/play/quiz" style={{color:"green"}}> START GAME </Link></span>
+                    <div className = "row d-flex justify-content-around ">
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/phy"> PHYSICS </Link></span>
+                        <span className="right"> <Link to="/play/phy"> + </Link></span>
+                        </div>
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> CHEMISTRY </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                        
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/bio"> BIOLOGY </Link></span>
+                        <span className="right"> <Link to="/play/bio"> + </Link></span>
+                        </div>
                     </div>
-
+                    <div className = "row d-flex justify-content-around ">
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> COMMERCE </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> MATHEMATICS </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                        
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> ENGLISH </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                    </div>
+                    <div className = "row d-flex justify-content-around ">
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> ACCOUNTING </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> CURRENT AFFAIRS </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                        
+                        <div className="col-sm-3 sub p-3">
+                        <span > <Link to="/play/quiz"> VERBAL </Link></span>
+                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
+                        </div>
+                    </div>
+                    <div className="bg-dark d-flex justify-content-center">
+                        <span> <Link to ="/play/Bio" style={{color:"white"}}> BACK </Link></span>
+                        
+                    </div>
                 </div>
             </Fragment>
          );

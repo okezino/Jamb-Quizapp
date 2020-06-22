@@ -1,0 +1,136 @@
+[
+    {
+        "question": "The inner diameter of a test tube can be measured accurately using a",
+        "optionA": "micrometer screw guage",
+        "optionB": "pair of dividers",
+        "optionC": "metre rule",
+        "optionD": "pair of vernier calipers",
+        "answer": "pair of vernier calipers"
+    },
+
+    {
+        "question": "In storing magnets, keepers are used to",
+        "optionA": "reduced self-demagnetization",
+        "optionB": "cancel the effect of the earth's magnetic field",
+        "optionC": "protect the magnet from stray electric field",
+        "optionD": "increase the strangth of the magnets",
+        "answer": "reduced self-demagnetization"
+    },
+
+    {
+        "question": "Which of the following statements is not correct about steel and soft iron?",
+        "optionA": "steel is more magnetized than soft iron",
+        "optionB": "permanent magnets are usually made of steel",
+        "optionC": "soft iron is more readily magnetized than steel",
+        "optionD": "soft iron more readily loses its magnetism than steel",
+        "answer": "steel is more magnetized than soft iron"
+    },
+
+    {
+        "question": "What determines the polarity at the ends of an electromagnet? The",
+        "optionA": "magnitude of the current passing through the wire",
+        "optionB": "material of the core of the magnet",
+        "optionC": "material of the coil",
+        "optionD": "direction of current in the wire",
+        "answer": "direction of current in the wire"
+    },
+
+    {
+        "question": "The phenomenon by which two light atomic nuclear combine to form a heavy nuclide with the release of energy is known as",
+        "optionA": "radioactivity",
+        "optionB": "nuclear fusion",
+        "optionC": "nuclear fission",
+        "optionD": "chain reaction",
+        "answer": "nuclear fusion"
+    },
+
+    {
+        "question": "In a p-type semiconductor, the",
+        "optionA": "number of holes are equal to the number of electrons",
+        "optionB": "electrical resistivity increases",
+        "optionC": "electrons are the majority charge carriers",
+        "optionD": "holes are the majority charge carriers",
+        "answer": "holes are the majority charge carriers"
+    },
+
+    {
+        "question": "Which of the following is stored by dry Leclanche cell?",
+        "optionA": "electrical energy",
+        "optionB": "heat energy",
+        "optionC": "solar energy",
+        "optionD": "chemical energy",
+        "answer": "electrical energy"
+    },
+
+    {
+        "question": "When a brick is taken from the earth's surface to the moon, its mass",
+        "optionA": "Remains constant",
+        "optionB": "Becomes zero",
+        "optionC": "Reduces",
+        "optionD": "Increases",
+        "answer": "Remains constant"
+    },
+
+    {
+        "question": "The pair of physical quantities that are scalar only are",
+        "optionA": "Volume and area",
+        "optionB": "Impulse and time",
+        "optionC": "Moment and momentum",
+        "optionD": " Impulse and time",
+        "answer": "Volume and area"
+    },
+
+    {
+        "question": "The coefficient of friction between two perfectly smooth surface is",
+        "optionA": "Infinity",
+        "optionB": "One",
+        "optionC": "Half",
+        "optionD": "Zero",
+        "answer": "Zero"
+    },
+
+    {
+        "question": "The rise or fall of a liquid in a narrow tube is because of the",
+        "optionA": "osmotic pressure of the liquid",
+        "optionB": "viscosity of the liquid",
+        "optionC": "surface tension of the liquid",
+        "optionD": "friction between the walls of the tube and the liquid",
+        "answer": "surface tension of the liquid"
+    },
+
+    {
+        "question": "An induction coil is generally used to ",
+        "optionA": "produce a large output voltage",
+        "optionB": "produce a large input voltage",
+        "optionC": "smoothen a pulsating direct current",
+        "optionD": "rectify an alternating current",
+        "answer": "produce a large output voltage"
+    },
+
+    {
+        "question": "Steam from boiling water cause more damage on the skin does boiling water because",
+        "optionA": "The steam is at a higher temperature than the water",
+        "optionB": "Steam brings heat more easily by convection",
+        "optionC": "Water has a high specific heat",
+        "optionD": "Steam has latent heat of fusion",
+        "answer": "The steam is at a higher temperature than the water"
+    },
+
+    {
+        "question": "What type of motion does the skin of a talking drum perform when its being struck with the drum stick?",
+        "optionA": "random",
+        "optionB": "rational",
+        "optionC": "translational",
+        "optionD": "vibratory",
+        "answer": "vibratory"
+    },
+
+    {
+        "question": "Foods cook quicker in salt water than in pure water because of the effect of",
+        "optionA": "Dissolved substances on the boiling point",
+        "optionB": "Salt on thermal the conductivity of water",
+        "optionC": "Atmosphere pressure on the boiling point",
+        "optionD": "Food nutrients on the thermal energy",
+        "answer": "Dissolved substances on the boiling point"
+    }
+]

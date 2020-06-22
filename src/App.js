@@ -4,6 +4,9 @@ import Home from "./component/Home"
 import instruc from "./component/instruc"
 import play from "./component/play"
 import summary from "./component/stat"
+import Chemistry from "./component/subjectCall/chemistry"
+import Biology from "./component/subjectCall/biology"
+import Physics from "./component/subjectCall/physics"
 
 
 function App() {
@@ -13,7 +16,10 @@ function App() {
       <Route path="/" exact component={Home}/>
       <Route path="/play/instr" exact component={instruc}/>
       <Route path ="/play/quiz" exact component={play}/>
-      <Route path ="/play/stat" exact component={summary}/>
+      <Route path ="/play/bio" exact component={Biology}/>
+      <Route path ="/play/phy" exact component={Physics}/>
+      <Route path ="/play/stat" component={summary}/>
+      <Route path ="/play/chem" component={Chemistry}/>
       </div>
     </Router>
    

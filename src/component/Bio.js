@@ -5,7 +5,7 @@ import M from "materialize-css";
 import shuffle from "../controller/aut"
 
 
-class play extends Component {
+class Bio extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -129,7 +129,7 @@ class play extends Component {
     correctAns=()=> { 
          M.toast({
              html: "RIGHT",
-             displayLength: 1000,
+             BIOLength: 1000,
              classes:"toast-valid"
              
          })
@@ -282,7 +282,12 @@ class play extends Component {
                      </p>
                     <p > <span >{this.state.currentquestindex +1} of {this.state.numberOfquest}</span></p>
                     <p>
-                   
+                    <button type="button" class="btn btn-success ml-3">
+     Min<span class="badge badge-light">{min}</span>
+  </button>
+  <button type="button" class="btn btn-success ml-3">
+     Sec<span class="badge badge-light ">{sec}</span>
+  </button>
                         <span>{min}:{sec} <span className="mdi mdi-clock-outline mdi-24px lifeline-icon" > </span></span>
                         </p>
                  </div>
@@ -312,4 +317,4 @@ class play extends Component {
     }
 }
  
-export default play;
+export default Bio;

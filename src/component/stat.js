@@ -1,6 +1,6 @@
 import React, { Component,Fragment } from 'react';
 import { Helmet } from "react-helmet"
-import {Link, withRouter}  from "react-router-dom"
+import {withRouter}  from "react-router-dom"
 
 class summary extends Component {
     constructor(props) {
@@ -64,10 +64,12 @@ class summary extends Component {
                 <h4>{remark}</h4>
                 <h2> Score obtain in quiz : {this.state.score.toFixed(0)}%  </h2>
                  <table>
+                    <thead>
                  <tr>
                 <th> SUMMARY</th>
                 <th> SCORE</th>
-                </tr>
+                </tr></thead>
+                <tbody>
                 <tr>
                 <td> Number of question</td>
                 <td> {this.state.numberOfquest}</td>
@@ -92,7 +94,7 @@ class summary extends Component {
                 <td> Number of hint unused </td>
                 <td> {this.state.hint}</td>
                 </tr>
-               
+                </tbody>
                 </table>
                 <div className="pagebutton">
              <button   onClick={this.buttonhandlerr}>Replay</button>
