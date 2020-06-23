@@ -40,50 +40,52 @@ class instruc extends Component {
                         
                     </ol>
 
-                    <div className = "row d-flex justify-content-around ">
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/phy"> PHYSICS </Link></span>
-                        <span className="right"> <Link to="/play/phy"> + </Link></span>
-                        </div>
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/che"> CHEMISTRY </Link></span>
-                        <span className="right"> <Link to="/play/che"> + </Link></span>
-                        </div>
+                    <div className = "row d-flex justify-content-around mt-5 ">
+                    <Link to="/play/phy">   <div className="col-sm-3 sub p-3">
+                        <span >  PHYSICS </span>
+                        <span className="right">  + </span>
+                        </div> </Link>
+                    <Link to="/play/che"> <div className="col-sm-3 sub p-3">
+                        <span >  CHEMISTRY</span>
+                        <span className="right">  + </span>
+                        </div>  </Link>
                         
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/bio"> BIOLOGY </Link></span>
-                        <span className="right"> <Link to="/play/bio"> + </Link></span>
-                        </div>
+                     <Link to="/play/bio">   <div className="col-sm-3 sub p-3">
+                       <span > BIOLOGY </span>
+                        <span className="right"> + </span>
+                        </div></Link>
                     </div>
                     <div className = "row d-flex justify-content-around ">
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/quiz"> COMMERCE </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
-                        </div>
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/quiz"> MATHEMATICS </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
-                        </div>
+                    <Link to="/play/com"> <div className="col-sm-3 sub p-3">
+                        <span >COMMERCE </span>
+                        <span className="right">  + </span>
+                        </div></Link>
+                    <Link to="/play/mth">    <div className="col-sm-3 sub p-3">
+                        <span >  MATHEMATICS </span>
+                        <span className="right">  + </span>
+                        </div></Link>
                         
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/quiz"> ENGLISH </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
-                        </div>
+                    <Link to="/play/eng">        <div className="col-sm-3 sub p-3">
+                        <span >  ENGLISH </span>
+                        <span className="right">  + </span>
+                        </div></Link>
                     </div>
                     <div className = "row d-flex justify-content-around ">
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/quiz"> ACCOUNTING </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
-                        </div>
+
+                    <Link to="/play/quiz">  <div className="col-sm-3 sub p-3">
+                        <span > ACCOUNTING </span>
+                        <span className="right">  +</span>
+                        </div></Link>
+
                         <div className="col-sm-3 sub p-3">
                         <span > <Link to="/play/quiz"> CURRENT AFFAIRS </Link></span>
                         <span className="right"> <Link to="/play/quiz"> + </Link></span>
                         </div>
                         
-                        <div className="col-sm-3 sub p-3">
-                        <span > <Link to="/play/quiz"> VERBAL </Link></span>
-                        <span className="right"> <Link to="/play/quiz"> + </Link></span>
-                        </div>
+                    <Link to="/play/quiz">   <div className="col-sm-3 sub p-3">
+                        <span >  VERBAL </span>
+                        <span className="right">  + </span>
+                        </div></Link>
                     </div>
                     <div className="bg-dark d-flex justify-content-center">
                         <span> <Link to ="/play/Bio" style={{color:"white"}}> BACK </Link></span>

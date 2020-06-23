@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Find the rate of change of the volume,V of a sphere with respect to its radius,r  when r = 1?",
+        
+        "optionA": "12π",
+        "optionB": "4 π",
+        "optionC": "24 π",
+        "optionD": "8 π",
+        "answer": "4 π"
+    },
+
+    {
+        "question": "Find the dimensions of a rectangle of greatest area which has a fixed perimeter",
+        "optionA": "square of sides p",
+        "optionB": "square of sides 2p",
+        "optionC": "square of sides p/2",
+        "optionD": "square of sides p/4",
+        "answer": "square of sides p/4"
+    },
+
+    {
+        "question": "The sum of the interior angles of regular polygon is 1800∘. How many sides has the polygon?",
+        "optionA": " 16",
+        "optionB": "8",
+        "optionC": "10",
+        "optionD": "12",
+        "answer": "12"
+    },
+
+    {
+        "question": "Given the scores:4,7,8,11,13,8 with corresponding frequencies:3,5,2,7,2,1",
+        "optionA": "25",
+        "optionB": "121",
+        "optionC": "35",
+        "optionD": "50",
+        "answer": "121"
+    },
+
+    {
+        "question": "Teams P and Q are involved in a game of football. What is the probability that the game ends in a draw?",
+        "optionA": "2/3",
+        "optionB": "1/2",
+        "optionC": "1/3",
+        "optionD": "1/4",
+        "answer": "1/3"
+    },
+
+    {
+        "question": "Find the number of ways of selecting 8 subjects from 12 subjects for an examination",
+        "optionA": "350",
+        "optionB": "780",
+        "optionC": "495",
+        "optionD": "500",
+        "answer": "495"
+    },
+
+    {
+        "question": "In what number base is the addition 465 + 24 + 225 = 1050?",
+        "optionA": "7",
+        "optionB": "4",
+        "optionC": "9",
+        "optionD": "6",
+        "answer": "7"
+    },
+
+    {
+        "question": "Simplify 52.4−5.7−3.45−1.75",
+        "optionA": "40.1",
+        "optionB": "41.5",
+        "optionC": "41.1",
+        "optionD": "42.1",
+        "answer": "41.5"
+    },
+
+    {
+        "question": "A chord is 2cm from the centre of a circle. If the radius of the circle is 5cm, find the length of the chord",
+        "optionA": "2√21 cm",
+        "optionB": "√42cm",
+        "optionC": "2√19cm",
+        "optionD": "√21cm",
+        "answer": "2√21 cm"
+    },
+
+    {
+        "question": "A trader bought goats for ₦ 4000 each. He sold them for ₦180,000 at a loss of 25 How many goats did he buy?",
+        "optionA": "60",
+        "optionB": "40",
+        "optionC": "45",
+        "optionD": "56",
+        "answer": "60"
+    },
+
+    {
+        "question": "Simplify 100 + 400 + 225",
+        "optionA": "775",
+        "optionB": "745",
+        "optionC": "725",
+        "optionD": "625",
+        "answer": "625"
+    },
+
+    {
+        "question": "Simplify 100 + 400 + 245",
+        "optionA": "775",
+        "optionB": "745",
+        "optionC": "725",
+        "optionD": "645",
+        "answer": "745"
+    },
+
+    {
+        "question": "Simplify 700 - 400 + 245",
+        "optionA": "675",
+        "optionB": "545",
+        "optionC": "525",
+        "optionD": "645",
+        "answer": "545"
+    },
+
+    {
+        "question": "If y varies directly as the square root of (x + 1) and y = 6 when x = 3, find x when y = 9",
+        "optionA": "8",
+        "optionB": "7",
+        "optionC": "7",
+        "optionD": "10",
+        "answer": "8"
+    },
+
+    {
+        "question": "Which of the following is not a probability of Mary scoring 85% in a mathematics test?",
+        "optionA": "0.76",
+        "optionB": "0.14",
+        "optionC": "0.6",
+        "optionD": "1.09",
+        "answer": " 1.09"
+    }
+]

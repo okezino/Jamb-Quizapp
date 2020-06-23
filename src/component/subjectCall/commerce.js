@@ -1,5 +1,5 @@
 import React, { Component,Fragment } from 'react';
-import quest from "../questions/questions.json";
+import quest from "../questions/commerce.json";
 import isEmpty from "../../utilities/is-empty";
 import M from "materialize-css";
 import shuffle from "../../controller/aut"
