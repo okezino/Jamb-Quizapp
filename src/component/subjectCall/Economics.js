@@ -1,5 +1,5 @@
 import React, { Component,Fragment } from 'react';
-import quest from "../questions/accounting.json";
+import quest from "../questions/Economics.json";
 import isEmpty from "../../utilities/is-empty";
 import M from "materialize-css";
 import shuffle from "../../controller/aut"
@@ -282,7 +282,7 @@ class Bio extends Component {
                      </p>
                     <p > <span >{this.state.currentquestindex +1} of {this.state.numberOfquest}</span></p>
                     <p>
-                        <span>{min}:{sec} <span className="mdi mdi-clock-outline mdi-24px lifeline-icon" > </span></span>
+                    <span>{min}:{sec} <span className="mdi mdi-clock-outline mdi-24px lifeline-icon" > </span></span>
                         </p>
                  </div>
                

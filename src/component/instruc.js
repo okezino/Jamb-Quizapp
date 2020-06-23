@@ -41,51 +41,51 @@ class instruc extends Component {
                     </ol>
 
                     <div className = "row d-flex justify-content-around mt-5 ">
-                    <Link to="/play/phy">   <div className="col-sm-3 sub p-3">
-                        <span >  PHYSICS </span>
-                        <span className="right">  + </span>
-                        </div> </Link>
-                    <Link to="/play/che"> <div className="col-sm-3 sub p-3">
-                        <span >  CHEMISTRY</span>
-                        <span className="right">  + </span>
-                        </div>  </Link>
+                     <div className="col-sm-3 sub p-3">
+                     <Link to="/play/phy">    <span >  PHYSICS </span>
+                        <span className="right">  + </span></Link>
+                        </div> 
+                    <div className="col-sm-3 sub p-3">
+                    <Link to="/play/che"> <span >  CHEMISTRY</span>
+                        <span className="right">  + </span> </Link>
+                        </div> 
                         
-                     <Link to="/play/bio">   <div className="col-sm-3 sub p-3">
-                       <span > BIOLOGY </span>
-                        <span className="right"> + </span>
-                        </div></Link>
+                   <div className="col-sm-3 sub p-3">
+                   <Link to="/play/bio">    <span > BIOLOGY </span>
+                        <span className="right"> + </span></Link>
+                        </div>
                     </div>
                     <div className = "row d-flex justify-content-around ">
-                    <Link to="/play/com"> <div className="col-sm-3 sub p-3">
-                        <span >COMMERCE </span>
-                        <span className="right">  + </span>
-                        </div></Link>
-                    <Link to="/play/mth">    <div className="col-sm-3 sub p-3">
-                        <span >  MATHEMATICS </span>
-                        <span className="right">  + </span>
-                        </div></Link>
+                     <div className="col-sm-3 sub p-3">
+                     <Link to="/play/com">  <span >COMMERCE </span>
+                        <span className="right">  + </span></Link>
+                        </div>
+                     <div className="col-sm-3 sub p-3">
+                     <Link to="/play/mth">    <span >  MATHEMATICS </span>
+                        <span className="right">  + </span></Link>
+                        </div>
                         
-                    <Link to="/play/eng">        <div className="col-sm-3 sub p-3">
-                        <span >  ENGLISH </span>
-                        <span className="right">  + </span>
-                        </div></Link>
+                          <div className="col-sm-3 sub p-3">
+                          <Link to="/play/eng">    <span >  ENGLISH </span>
+                        <span className="right">  + </span></Link>
+                        </div>
                     </div>
                     <div className = "row d-flex justify-content-around ">
 
-                    <Link to="/play/quiz">  <div className="col-sm-3 sub p-3">
-                        <span > ACCOUNTING </span>
-                        <span className="right">  +</span>
-                        </div></Link>
+                   <div className="col-sm-3 sub p-3">
+                   <Link to="/play/acc">    <span > ACCOUNTING </span>
+                        <span className="right">  +</span></Link>
+                        </div>
 
                         <div className="col-sm-3 sub p-3">
                         <span > <Link to="/play/quiz"> CURRENT AFFAIRS </Link></span>
                         <span className="right"> <Link to="/play/quiz"> + </Link></span>
                         </div>
                         
-                    <Link to="/play/quiz">   <div className="col-sm-3 sub p-3">
-                        <span >  VERBAL </span>
-                        <span className="right">  + </span>
-                        </div></Link>
+                       <div className="col-sm-3 sub p-3">
+                       <Link to="/play/eco">  <span >  ECONOMICS </span>
+                        <span className="right">  + </span></Link>
+                        </div>
                     </div>
                     <div className="bg-dark d-flex justify-content-center">
                         <span> <Link to ="/play/Bio" style={{color:"white"}}> BACK </Link></span>

@@ -11,6 +11,7 @@ import commerce from "./component/subjectCall/commerce"
 import English from "./component/subjectCall/physics"
 import Physics from "./component/subjectCall/physics"
 import Mathematics from "./component/subjectCall/mathematics"
+import Economics from "./component/subjectCall/Economics"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path ="/play/eng" exact component={English}/>
       <Route path ="/play/phy" exact component={Physics}/>
       <Route path ="/play/che" exact component={Chemistry}/>
+      <Route path ="/play/eco" exact component={Economics}/>
       <Route path ="/play/stat" component={summary}/>
       <Route path ="/play/mth" component={Mathematics}/>
       </div>
