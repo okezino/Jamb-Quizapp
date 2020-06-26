@@ -3,10 +3,10 @@
         "question": "Find the rate of change of the volume,V of a sphere with respect to its radius,r  when r = 1?",
         
         "optionA": "12π",
-        "optionB": "4 π",
-        "optionC": "24 π",
-        "optionD": "8 π",
-        "answer": "4 π"
+        "optionB": "4π",
+        "optionC": "24π",
+        "optionD": "8π",
+        "answer": "4π"
     },
 
     {
@@ -82,7 +82,7 @@
     },
 
     {
-        "question": "A trader bought goats for ₦ 4000 each. He sold them for ₦180,000 at a loss of 25 How many goats did he buy?",
+        "question": "A trader bought goats for ₦ 4000 each. He sold them for ₦180,000 at a loss of 25% How many goats did he buy?",
         "optionA": "60",
         "optionB": "40",
         "optionC": "45",
@@ -121,7 +121,7 @@
         "question": "If y varies directly as the square root of (x + 1) and y = 6 when x = 3, find x when y = 9",
         "optionA": "8",
         "optionB": "7",
-        "optionC": "7",
+        "optionC": "6",
         "optionD": "10",
         "answer": "8"
     },
